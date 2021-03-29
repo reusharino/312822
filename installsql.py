@@ -10,10 +10,6 @@ _____________________________________________________
 '''
 time.sleep(5)
 
-run("apt-get update -y")
-run("apt-get upgrade -y")
-run("apt-get install -y sudo")
-
 run("apt-get install gnupg -y")
 run("cd /tmp")
 run("wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb --allow-insecure-repositories")

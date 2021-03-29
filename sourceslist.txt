@@ -1,0 +1,36 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 10.8.0 _Buster_ - Official amd64 NETINST 20210206-10:34]/ buster main
+
+#deb cdrom:[Debian GNU/Linux 10.8.0 _Buster_ - Official amd64 NETINST 20210206-10:34]/ buster main
+
+deb http://deb.debian.org/debian/ buster main
+deb-src http://deb.debian.org/debian/ buster main
+
+deb http://security.debian.org/debian-security buster/updates main
+deb-src http://security.debian.org/debian-security buster/updates main
+
+# buster-updates, previously known as 'volatile'
+deb http://deb.debian.org/debian/ buster-updates main
+deb-src http://deb.debian.org/debian/ buster-updates main
+
+# This system was installed using small removable media
+# (e.g. netinst, live or single CD). The matching "deb cdrom"
+# entries were disabled at the end of the installation process.
+# For information about how to configure apt package sources,
+# see the sources.list(5) manual.
+
+###### Ubuntu Main Repos
+deb http://sg.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse 
+deb-src http://sg.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse 
+
+###### Ubuntu Update Repos
+deb http://sg.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse 
+deb http://sg.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse 
+deb http://sg.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse 
+deb http://sg.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse 
+deb-src http://sg.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse 
+deb-src http://sg.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse 
+deb-src http://sg.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse 
+deb-src http://sg.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse 
+

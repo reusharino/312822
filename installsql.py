@@ -12,7 +12,7 @@ time.sleep(5)
 
 run("apt-get install gnupg -y")
 run("cd /tmp")
-run("wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb --allow-insecure-repositories")
+run("wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb")
 run("sudo dpkg -i mysql-apt-config*")
 run("sudo apt update -y")
 run("sudo apt install mysql-server")

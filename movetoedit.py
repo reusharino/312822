@@ -9,4 +9,4 @@ run("mkdir edit/cnc")
 run("mv JG/mirai/bot/table.c edit/bot")
 
 run("mv JG/mirai/cnc/main.go edit/cnc")
-run("mv JG/mirai/cnc/admin edit/cnc")
+run("mv JG/mirai/cnc/admin.go edit/cnc")
